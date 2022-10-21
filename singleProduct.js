@@ -49,7 +49,7 @@ const displayProducts = (product) => {
   <div class="product-info">
     <h3>${title}</h3>
     <h5>${company}</h5>
-    <span>${formatPrice}</span>
+    <span>$${formatPrice}</span>
     <div class="colors">
       ${colorsList}
     </div>
