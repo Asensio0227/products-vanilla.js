@@ -30,7 +30,7 @@ function displayProducts(list) {
     const { name:title, price } = item.fields;
     const formatPrice = price / 100;
 
-    return `<a class="single-product" href="product.html?id=${id}&name=john&age=25">
+    return `<a class="single-product" href="product.html?id=${id}&name=asensio&age=23">
           <img 
           src="${img}"
           alt="${title}" 
