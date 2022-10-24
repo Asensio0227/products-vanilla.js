@@ -41,8 +41,8 @@ const displayProducts = (product) => {
   const formatPrice = price / 100;
 
   const colorsList = colors.map((color) => {
-    return `<span class="color" style=background:${color}></span>`
-  })
+    return `<span class="product-color" style="background:${color}"></span>`
+  }).join('');
 
   productDom.innerHTML = `<div class="product-wrapper">
   <img src="${img}" alt="${title}" class="img" />
